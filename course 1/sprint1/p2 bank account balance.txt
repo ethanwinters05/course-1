@@ -1,0 +1,31 @@
+Algorithm to display bank account balance
+
+1.Set initial balance as $5500.
+2.Take input from user for the amount to be withdrawn.
+3.Check if the withdrawal amount is less than or equal to the current balance.
+4.If yes, deduct the withdrawal amount from the current balance.
+5.If no, display an error message "Insufficient balance".
+6.Display the updated balance amount.
+7.Check if the updated balance amount is less than $100.
+8.If yes, display a message "Your account has been frozen".
+9.End the program.
+
+
+pseudocode
+BEGIN
+     balance = $5500
+     withdrawal amount = input("Enter the amount to be withdrawn ")
+BEGIN
+     if withdrawal_amount <= balance
+     balance = balance - withdrawal amount
+     print(Updated balance, balance)
+END
+BEGIN
+     if balance < $100:
+     print("Your account has been frozen")
+END
+BEGIN
+     else:
+     print("Insufficient balance")
+END
+END

@@ -1,0 +1,45 @@
+calculate the sum of prime numbers:
+
+Algorithm:
+
+1: Start
+2: Accept the minimum value from the user
+3: Accept the maximum value from the user
+4: let i= min value and count= to 0 and sum= to 0 
+5: Repeat step 6 to 9 untill i is less than or equal to maximum value.
+6: let j =1
+7: Repeat the step 8 untill j value is less than or equal to i
+8: If i divisible by j incremnt count by 1, increment j by 1
+9: If count is 2 print i, sum= add sum and i and increment i by 1
+10: print" primenumber is " sum
+11. stop
+
+pseuocode:
+
+Begin
+   Get min = 0
+   Get max = 10
+   Set i= 0
+   Set count= 0
+   set sum =0
+
+For ( min = 0, min <= 10, min++)
+  
+  for ( max = 1, max <= 0, max++)
+    if min value % max value == 0
+
+      count = count + 1
+    end if
+
+   end for
+
+     if count =2
+
+      Begin 
+       sum = sum + 1
+      End 
+      end if 
+
+ Print sum
+ End for 
+End

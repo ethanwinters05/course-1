@@ -1,0 +1,35 @@
+Algorithm
+
+1. Start
+2. Accept num of employees as count
+3. Let i=1, total bonus =0, maximum bonus = 0
+4. Repeat the process from step 5 to 10 if i is < or = to count
+5. Accept the name and salary of the person as the input
+6. bonus = (salary*12)*0.02
+7. print name and bonus
+8. check if the bonus is > or = to maximum bonus, then assign maximum bonus = bonus
+9. increment i by 1
+10. total bonus = total bonus + bonus
+11. Print the total bonus
+12. average bonus = total bonus/count
+13. print average bonus
+14. stop
+
+pseudocode
+
+BEGIN
+accept count
+	Let i=1, total bonus = 0, maximum bonus = 0
+	for(i<=count)
+		accept name, salary
+		bonus = (salary*12)*0.02
+		PRINT name,bonus
+		IF(bonus>=maximum bonus)
+			maximum bonus = bonus
+		EndIf
+		increment i by 1
+		total bonus = total bonus + bonus
+	PRINT total bonus
+	average bonus = total bonus / count
+	PRINT average bonus
+END	

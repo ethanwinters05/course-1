@@ -1,0 +1,24 @@
+Algorithm to Calculate Discount on Total Bill Amount:
+
+1.Take input of total bill amount.
+2.If the total bill amount is greater than or equal to $500, then apply the festive discount of 5%.
+3.Calculate the discount amount by multiplying the total bill amount by 5%.
+4.else the bill amount is lesser than $500 the discount zero.
+5.Print the discount amount.
+
+pseudocode
+
+
+BEGIN
+Input total_bill_amount
+  begin
+      If (total bill amount >= 500)
+      discount = total bill amount * 0.05
+      Print You have received a festive discount of $  discount   on your total bill.
+  end
+  begin
+      Else
+      Print Your total bill is less than $500, so you are not eligible for the festive discount.
+  end
+END
+
